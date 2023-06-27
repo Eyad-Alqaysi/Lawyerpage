@@ -1,0 +1,69 @@
+*{
+    font-family: 'Cairo', sans-serif;
+    
+}
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #212529;
+    color: #fff;
+}
+/* resize the img to fit */
+
+.card-img-top {
+    /* resize the img to fit */
+
+
+    background: #ececf3;
+
+    height: 200px;
+    width: 100%;
+    object-fit: contain;
+}
+.card {
+    background-color: #343a40;
+    border-color: #343a40;
+    height: 100%;
+    color: #fff;
+}
+.card-title {
+    color: #fff;
+    background-color: #343a40;
+}
+
+.card-footer {
+    background-color: #343a40;
+     
+}
+
+a.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+a.btn-primary:hover {
+    background-color: #005cbe;
+}
+
+#cardid:hover {
+    transition: transform .5s;
+    transform: scale(1.05);
+
+}
+#cardid {
+    transition: transform .5s;
+    transform: scale(1)
+}
+
+
+@media (max-width: 576px) {
+    .grid {
+        flex-direction: column;
+    }
+    .card{
+        margin: 5%;
+    }
+            
+}
