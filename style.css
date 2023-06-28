@@ -1,55 +1,62 @@
 *{
     font-family: 'Cairo', sans-serif;
-    
 }
 body {
     display: flex;
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    background-color: #212529;
-    color: #fff;
+    /* background-color: #212529; */
+    background-image: url("img/Artboard\ 1@0.75x\ .png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color:rgb(232,232,232);
+
 }
-/* resize the img to fit */
-
+#h{
+    background-color: #2e5038;
+    background-image: url(img/banner.png); 
+    object-fit: contain;
+}
 .card-img-top {
-    /* resize the img to fit */
-
 
     background: #ececf3;
-
     height: 200px;
     width: 100%;
     object-fit: contain;
 }
 .card {
-    background-color: #343a40;
-    border-color: #343a40;
-    height: 100%;
-    color: #fff;
+    background-color: rgb(232,232,232);
+    
+    /* border-color: #343a40; */
+    
+    /* color: #fff; */
 }
 .card-title {
-    color: #fff;
-    background-color: #343a40;
+    background-color: rgb(232,232,232);
+    color: rgb(46, 81, 57);
 }
 
 .card-footer {
-    background-color: #343a40;
-     
-}
+    background-color: rgb(232,232,232);
+} 
 
 a.btn-primary {
-    background-color: #007bff;
-    border-color: #007bff;
+    background-color: rgb(68, 102, 77);
+    border-color: rgb(68, 102, 77);
+    color: rgb(232,232,232);
 }
 
 a.btn-primary:hover {
-    background-color: #005cbe;
+    background-color: rgb(32,51,36) ;
+    border-color: rgb(32,51,36) ;
+    color: rgb(232,232,232);
 }
 
 #cardid:hover {
     transition: transform .5s;
-    transform: scale(1.05);
+    transform: scale(1.075);
 
 }
 #cardid {
